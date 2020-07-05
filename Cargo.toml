@@ -1,0 +1,17 @@
+[package]
+name = "ndarray-pad"
+version = "0.1.0-alpha.0"
+authors = ["Jason Miller <contact@jasonmiller.nl>"]
+edition = "2018"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/imjasonmiller/ndarray-pad"
+keywords = ["array", "padding", "ndarray"]
+categories = ["data-structures", "science"]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ndarray = "0.13.1"
+num-traits = "0.2.12"
+
