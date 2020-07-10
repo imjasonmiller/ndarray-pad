@@ -61,7 +61,7 @@ where
                 // Copy original array into padded array
                 original_area.assign(self);
 
-                return padded;
+                padded
             }
             PaddingMode::Edge => {
                 unimplemented!();
